@@ -84,7 +84,9 @@ module.exports.formatData = data => {
     return prod;
   });
   console.log("revised", revisedProds);
+  console.log("revised prods[0]", revisedProds[0]);
 };
+
 
 },{}],3:[function(require,module,exports){
 "use strict";
